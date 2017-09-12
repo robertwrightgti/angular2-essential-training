@@ -1,5 +1,15 @@
 <h2>{{ mediaItem.name }}</h2>
-<div>Watched on {{ mediaItem.watchedOn }}</div>
+
+<!--this is the short version-->
+<div *ngIf="mediaItem.watchedOn">Watched on {{ mediaItem.watchedOn }}</div>
+
+<!--this is the long version! -->
+<!-- <template [ngIf]="mediaItem.watchedOn">
+  <div >Watched on {{ mediaItem.watchedOn }}</div>
+  <another tag>
+  <another dependent tag...>
+</template> -->
+
 <div>{{ mediaItem.category }}</div>
 <div>{{ mediaItem.year }}</div>
 <div class="tools">
