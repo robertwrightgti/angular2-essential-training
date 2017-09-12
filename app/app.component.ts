@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'mw-app',
@@ -14,5 +15,5 @@ export class AppComponent {
     year: 2010,
     watchedOn: 1294166565384,
     isFavorite: false
-  };
+  }; 
 }
