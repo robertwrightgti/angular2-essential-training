@@ -17,8 +17,6 @@ export class MediaItemFormComponent {
     @Inject('lookupListToken') public lookupLists
   ) {}
 
-//just a note
-
   ngOnInit() {
     this.form = this.formBuilder.group({
       //medium: this.formBuilder.control('Movies'),
