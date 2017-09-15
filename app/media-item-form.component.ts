@@ -21,7 +21,8 @@ export class MediaItemFormComponent {
 
   ngOnInit() {
     this.form = this.formBuilder.group({
-      medium: this.formBuilder.control('Movies'),
+      //medium: this.formBuilder.control('Movies'),
+      medium: this.formBuilder.control(this.lookupLists.mediums[0]), //default value to select the first option in the dropdown
       name: this.formBuilder.control('', Validators.compose([
         Validators.required,
         Validators.pattern('[\\w\\-\\s\\/]+')
