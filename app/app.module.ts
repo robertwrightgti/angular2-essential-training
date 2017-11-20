@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent, MediaItemComponent } from './pages';
+import { AppComponent, MediaItemComponent, MediaItemListComponent } from './pages';
 
 @NgModule({
   imports: [
@@ -8,7 +8,8 @@ import { AppComponent, MediaItemComponent } from './pages';
   ],
   declarations: [
     AppComponent,
-    MediaItemComponent
+    MediaItemComponent,
+    MediaItemListComponent
   ],
   bootstrap: [
     AppComponent
