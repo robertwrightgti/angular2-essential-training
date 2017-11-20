@@ -6,14 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['app/app.component.css']
 })
 export class AppComponent {
-  
+
   firstMediaItem = {
     id: 1,
     name: "Firebug",
     media: "Series",
     category: "Science Fiction",
     year: 2010,
-    watchedOn: 1294166565384,
+    watchedOn: null,
     isFavorite: false
   };
 
