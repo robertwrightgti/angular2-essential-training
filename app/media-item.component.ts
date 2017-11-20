@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['app/media-item.component.css']
 })
 export class MediaItemComponent {
-  name = "The Redemption";
+  name = "Hawk the Slayer";
 
   wasWatched() {
     return true;
