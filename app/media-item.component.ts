@@ -5,10 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: 'app/media-item.component.html',
   styleUrls: ['app/media-item.component.css']
 })
-export class MediaItemComponent {
-  name = "Hawk the Slayer";
-
-  wasWatched() {
-    return true;
+export class MediaItemComponent { 
+  onDelete() {
+    console.log("delete!")
   }
 }
