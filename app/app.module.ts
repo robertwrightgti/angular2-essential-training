@@ -11,7 +11,9 @@ import {
   //directives
   FavoriteDirective,  
   //pipes
-  CategoryListPipe
+  CategoryListPipe,
+  //services
+  MediaItemService
  } from './pages';
 
 @NgModule({
@@ -25,7 +27,14 @@ import {
     MediaItemFormComponent,
     MediaItemListComponent,
     FavoriteDirective,
-    CategoryListPipe
+    CategoryListPipe,
+    MediaItemService
+  ],
+  //providers get added to the root injector
+  //so they're available to the whole app
+  //that's why we put services there
+  providers: [
+    MediaItemService
   ],
   bootstrap: [
     AppComponent

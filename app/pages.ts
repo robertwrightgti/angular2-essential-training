@@ -10,3 +10,6 @@ export { FavoriteDirective } from './favorite.directive';
 
 //pipes
 export { CategoryListPipe } from './category-list.pipe';
+
+//services
+export { MediaItemService } from './media-item.service';
