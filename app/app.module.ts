@@ -16,6 +16,8 @@ import {
   MediaItemService
  } from './pages';
 
+//import { MediaItemService } from './media-item.service';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -27,12 +29,8 @@ import {
     MediaItemFormComponent,
     MediaItemListComponent,
     FavoriteDirective,
-    CategoryListPipe,
-    MediaItemService
+    CategoryListPipe
   ],
-  //providers get added to the root injector
-  //so they're available to the whole app
-  //that's why we put services there
   providers: [
     MediaItemService
   ],
