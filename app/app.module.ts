@@ -5,7 +5,9 @@ import {
   MediaItemComponent, 
   MediaItemListComponent,
 
-  FavoriteDirective
+  FavoriteDirective,
+
+  CategoryListPipe
 
  } from './pages';
 
@@ -17,7 +19,8 @@ import {
     AppComponent,
     MediaItemComponent,
     MediaItemListComponent,
-    FavoriteDirective
+    FavoriteDirective,
+    CategoryListPipe
   ],
   bootstrap: [
     AppComponent
